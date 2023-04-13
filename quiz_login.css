@@ -1,0 +1,77 @@
+body
+{
+	background-image: url("https://th.bing.com/th/id/R.0924e1274aa95775cab14443d22299d0?rik=yUuZs3FwUoun8A&riu=http%3a%2f%2fwww.technocrazed.com%2fwp-content%2fuploads%2f2015%2f12%2fbeautiful-wallpaper-download-13.jpg&ehk=FAZODg3l96XQ5dtZZSWuWe%2bCXG%2bqFjziRDNSDj3qHUg%3d&risl=&pid=ImgRaw&r=0");
+    background-size:cover ;
+	background-position: center;
+	margin-top: 100px;
+    font-family:'Fjalla One', cursive;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: rgb(248, 248, 248);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}   
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+button:hover 
+{
+    background-color:#b0998c;
+    color: #293749;
+}   
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#adduser{
+    background-color:rgb(248, 158, 173);
+    width:20%;
+    border-radius: 20px;
+    border-style: groove;
+   font-size:20px;
+   color:white;
+   margin-bottom:30px;
+}
+
+#adduser:hover{
+    background-color: rgb(214, 134, 134);
+    color:white;
+    margin-bottom:30px;
+}
+
+h2, h4{
+    color:blueviolet;
+    font-weight: 900;
+}
+
+
+#number_1, #number_2 
+{
+	border-width:2px;
+	border-color: #293749;
+	border-radius: 15px;
+	width: 500px;
+	height: 50px;
+	font-size: small;
+}
